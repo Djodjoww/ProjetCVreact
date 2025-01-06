@@ -1,5 +1,7 @@
 # Projet React - Portfolio de John Doe
 
+Lien du projet CodeSandbox: https://codesandbox.io/p/github/Djodjoww/ProjetCVreact/master?import=true
+
 ## Description
 Ce projet est un portfolio personnel développé avec React.js. Il présente les services, réalisations, articles de blog et informations de contact de John Doe. Le site est conçu pour être responsive et suit les bonnes pratiques de développement front-end.
 
