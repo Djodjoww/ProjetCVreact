@@ -79,4 +79,11 @@ src/
 - **Bootstrap** : Framework CSS pour la mise en page et les composants responsives.
 - **Google Fonts** : Pour la police "Nunito Sans".
 
+## Résultats des validations W3C
+### Validation HTML
+![Validation HTML](./src/assets/img/Validator1.png)
+
+### Validation CSS
+![Validation CSS](./src/assets/img/Validator2.png)
+
 
