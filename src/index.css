@@ -1,0 +1,74 @@
+/* Importation de la police Nunito Sans avec les graisses 400 et 600 */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&display=swap');
+
+/* Style global pour le corps */
+body {
+  margin: 0; 
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 400; 
+  font-size: 16px;
+  line-height: 1.6; 
+  color: #333; 
+  background-color: #f9f9f9; 
+  -webkit-font-smoothing: antialiased; 
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Titres */
+h3, h4, h5, h6 {
+  font-weight: 600; 
+  margin: 0 0 15px; 
+  color: #202020 ; 
+}
+
+/* Balises <strong> */
+strong {
+  font-weight: 600; /* Graisse forte pour mettre en valeur */
+  color: #000000;
+}
+
+/* Liens */
+a {
+  text-decoration: none; 
+  color: #007bff; 
+  transition: color 0.3s; 
+}
+
+a:hover {
+  color: #0056b3; 
+  text-decoration: underline; 
+}
+
+/* Listes */
+ul {
+  list-style: none; 
+  padding: 0;
+}
+
+ul li::before {
+  content: ""; 
+  font-weight: bold;
+  color: #007bff; 
+  margin-right: 8px;
+}
+
+/* Pied de page */
+footer {
+  background-color: #333; 
+  color: white; 
+  text-align: center;
+  padding: 15px 0; 
+  font-size: 14px; 
+  border-top: 1px solid #444; 
+}
+
+/* Adaptation responsive */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px; /* Réduit la taille du texte pour les petits écrans */
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    line-height: 1.2; /* Hauteur des lignes réduite pour les petits écrans */
+  }
+}

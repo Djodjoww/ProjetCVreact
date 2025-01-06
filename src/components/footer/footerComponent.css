@@ -1,0 +1,99 @@
+/* Conteneur principal */
+.p {
+   background-color: #d2d2d2;
+   padding: 20px 0;
+}
+
+/* Section principale du footer */
+.footer1 {
+   display: flex;
+   flex-wrap: wrap; /* Pour gérer les colonnes sur les petits écrans */
+   justify-content: space-between; 
+   color: black;
+   text-align: start;
+   padding: 20px 40px;
+}
+
+/* Liste des liens */
+.footer1 ul {
+   list-style: none; 
+   padding: 0;
+   margin: 0;
+}
+
+.footer1 li {
+   display: flex; 
+   align-items: center;
+   margin-bottom: 8px; 
+   font-size: 14px; 
+}
+
+/* Flèches bleues */
+.footer1 li::before {
+   content: "›"; 
+   font-weight: bold; 
+   margin-right: 8px; 
+   color: #007bff; 
+   font-size: 14px; 
+}
+
+/* Liens */
+.footer1 a {
+   text-decoration: none; 
+   color: #007bff; 
+   transition: color 0.3s; 
+}
+
+.footer1 a:hover {
+   color: #0056b3; 
+   text-decoration: underline; 
+}
+
+/* Titres des colonnes */
+.footer1 h6 {
+   font-weight: bold;
+   margin-bottom: 15px;
+   font-size: 16px;
+   color: #333;
+}
+
+/* Pied de page secondaire (texte en bas) */
+.footer2 {
+   width: 100%;
+   background-color: #333;
+   color: white;
+   text-align: center;
+   padding: 10px 0; 
+}
+
+/* Adaptation pour les petits écrans */
+@media (max-width: 768px) {
+   .footer1 {
+       flex-direction: column;
+       align-items: center;
+       text-align: center;
+   }
+
+   .footer1 ul {
+       margin-bottom: 20px;
+   }
+
+   .footer1 li {
+       justify-content: center; 
+   }
+}
+
+.footer2 {
+   background-color: #1e1e1e; /* Couleur de fond sombre */
+   color: white; /* Couleur du texte blanche */
+   text-align: center; /* Centrage du texte */
+   padding: 10px 0; /* Espacement en haut et en bas */
+   font-size: 14px; /* Taille de la police */
+   font-weight: 400; /* Poids du texte normal */
+   border-top: 1px solid #444; /* Ligne séparatrice subtile au-dessus */
+   position: relative; /* Position relative pour s'assurer que le bandeau reste bien en place */
+   left: 0; /* Alignement à gauche */
+   width: 100%; /* Largeur de 100% de la page sans débordement */
+   margin: 0; /* Supprime tout espacement externe */
+}
+
